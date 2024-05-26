@@ -2,4 +2,8 @@ input = [99, 114, 121, 112, 116, 111, 123, 65, 83, 67, 73, 73, 95, 112, 114, 49,
 output = ""
 for i in input:
     output += chr(i)
+inputR = []
+for i in output:
+    inputR.append(ord(i))
 print(output)
+print(inputR)
